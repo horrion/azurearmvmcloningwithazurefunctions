@@ -3,7 +3,13 @@ With this project you will be able to set up a simple web portal, where people c
 
 
 #### Overview
-![Overview](https://github.com/horrion/azurearmvmcloningwithazurefunctions/blob/master/docs/VmCloningProcessOverview.png)
+![Overview](https://github.com/kreuzhofer/azurearmvmcloningwithazurefunctions/blob/master/docs/VmCloningProcessOverview.png)
+
+
+#### Contributions
+[kreuzhofer](https://github.com/kreuzhofer), initial project setup, powershell scripting
+
+thanks to [horrion](https://github.com/horrion) for creating the web-portal, documentation and testing
 
 
 #### Prerequisites
@@ -12,8 +18,10 @@ If you haven't already done so, set up a Microsoft Azure account at https://port
 
 ###### Create a Service Principal
 Create a Service Principal. 
-- [You can find further information on setting up Service Principals here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal)
-- [You can find further information on authenticating against Service Principals here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authenticate-service-principal)
+
+[You can find further information on setting up Service Principals here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal)
+
+[You can find further information on authenticating against Service Principals here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authenticate-service-principal)
 
 ###### Create an Azure Function
 Create an Azure Function. To do so, log into https://portal.azure.com, click on "New" in the left hand side column, then type in "Function App". Select "Function App" published by Microsoft, then click "Create". 
